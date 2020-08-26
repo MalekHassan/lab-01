@@ -1,19 +1,19 @@
 /* desktop-view */
 
 #a {
-    background-color: rgb(87, 86, 86);
+    background-color: rgb(170, 167, 167);
 }
 
 #b {
-    background-color: cadetblue;
+    background-color: deeppink;
 }
 
 #c {
-    background-color: lightblue;
+    background-color: darkmagenta;
 }
 
 #d {
-    background-color: yellow;
+    background-color: crimson;
 }
 
 #e {
@@ -21,25 +21,58 @@
 }
 
 #f {
-    background-color: crimson;
+    background-color: yellow;
 }
 
 #g {
-    background-color: darkmagenta;
+    background-color: lightblue;
 }
 
 #h {
-    background-color: deeppink;
+    background-color: cadetblue;
 }
 
 #i {
-    background-color: rgb(128, 77, 170);
+    background-color: peru;
+}
+
+
+/* tablet-view */
+
+@media (max-width:959px) {
+    #a {
+        background-color: rgb(87, 86, 86);
+    }
+    #b {
+        background-color: cadetblue;
+    }
+    #c {
+        background-color: lightblue;
+    }
+    #d {
+        background-color: yellow;
+    }
+    #e {
+        background-color: yellowgreen;
+    }
+    #f {
+        background-color: crimson;
+    }
+    #g {
+        background-color: darkmagenta;
+    }
+    #h {
+        background-color: deeppink;
+    }
+    #i {
+        background-color: rgb(128, 77, 170);
+    }
 }
 
 
 /* mobile-view */
 
-@media (max-width:960px) {
+@media (max-width:719px) {
     #a {
         background-color: rgb(170, 167, 167);
     }
