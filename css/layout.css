@@ -1,0 +1,154 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+#a {
+    width: 956px;
+    height: 96px;
+    border: 2px solid black;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#b {
+    width: 196px;
+    height: 596px;
+    border: 2px solid black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#c {
+    width: 376px;
+    height: 196px;
+    border: 2px solid black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#d {
+    width: 376px;
+    height: 196px;
+    border: 2px solid black;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#e {
+    width: 186px;
+    height: 246px;
+    border: 2px solid black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#f {
+    width: 186px;
+    height: 246px;
+    border: 2px solid black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#g {
+    width: 186px;
+    height: 246px;
+    border: 2px solid black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#h {
+    width: 186px;
+    height: 246px;
+    border: 2px solid black;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#i {
+    width: 756px;
+    height: 146px;
+    border: 2px solid black;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+/* mobile-view */
+
+@media (max-width:960px) {
+    body {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    #a {
+        width: 476px;
+        height: 71px;
+        float: none;
+    }
+    #b {
+        width: 476px;
+        height: 146px;
+        float: none;
+    }
+    #c {
+        width: 476px;
+        height: 121px;
+        float: none;
+    }
+    #d {
+        width: 476px;
+        height: 121px;
+        float: none;
+    }
+    #e {
+        width: 236px;
+        height: 246px;
+        float: left;
+    }
+    #f {
+        width: 236px;
+        height: 246px;
+        float: right;
+    }
+    #g {
+        width: 236px;
+        height: 246px;
+        float: left;
+    }
+    #h {
+        width: 236px;
+        height: 246px;
+        float: right;
+    }
+    #i {
+        width: 476px;
+        height: 76px;
+        float: none;
+    }
+}

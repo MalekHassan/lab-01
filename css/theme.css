@@ -1,0 +1,70 @@
+/* desktop-view */
+
+#a {
+    background-color: rgb(87, 86, 86);
+}
+
+#b {
+    background-color: cadetblue;
+}
+
+#c {
+    background-color: lightblue;
+}
+
+#d {
+    background-color: yellow;
+}
+
+#e {
+    background-color: yellowgreen;
+}
+
+#f {
+    background-color: crimson;
+}
+
+#g {
+    background-color: darkmagenta;
+}
+
+#h {
+    background-color: deeppink;
+}
+
+#i {
+    background-color: rgb(128, 77, 170);
+}
+
+
+/* mobile-view */
+
+@media (max-width:960px) {
+    #a {
+        background-color: rgb(170, 167, 167);
+    }
+    #b {
+        background-color: deeppink;
+    }
+    #c {
+        background-color: darkmagenta;
+    }
+    #d {
+        background-color: crimson;
+    }
+    #e {
+        background-color: yellowgreen;
+    }
+    #f {
+        background-color: yellow;
+    }
+    #g {
+        background-color: lightblue;
+    }
+    #h {
+        background-color: cadetblue;
+    }
+    #i {
+        background-color: peru;
+    }
+}
